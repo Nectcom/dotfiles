@@ -1,2 +1,2 @@
-colorscheme molokai
+colorscheme hybrid
 syntax on
