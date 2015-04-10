@@ -32,6 +32,7 @@ NeoBundle 'basyura/unite-rails'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'kana/vim-submode'
+NeoBundle 'vim-scripts/ruby-matchit'
 
 
 if has('lua')
