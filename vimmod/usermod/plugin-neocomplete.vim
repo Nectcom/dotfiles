@@ -1,0 +1,26 @@
+"""""""""""""""""""""""""""
+" settings for neocomplete
+"""""""""""""""""""""""""""
+
+
+let g:neocomplete#enable_at_startup               = 1
+let g:neocomplete#auto_completion_start_length    = 3
+let g:neocomplete#enable_ignore_case              = 1
+let g:neocomplete#enable_smart_case               = 1
+let g:neocomplete#enable_camel_case               = 1
+let g:neocomplete#use_vimproc                     = 1
+let g:neocomplete#sources#buffer#cache_limit_size = 1000000
+let g:neocomplete#sources#tags#cache_limit_size   = 30000000
+let g:neocomplete#enable_fuzzy_completion         = 1
+let g:neocomplete#lock_buffer_name_pattern        = '\*ku\*'
+
+" for Ruby
+if !exists('g:neocomplete#force_omni_input_patterns')
+  let g:neocomplete#force_omni_input_patterns = {}
+endif
+
+inoremap <expr><C-l> neocomplete#complete_common_string()
+
+" 展開可能なら展開、補完中なら次候補を、それ以外はTABを
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "<TAB>"
+
