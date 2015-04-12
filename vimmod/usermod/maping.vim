@@ -40,3 +40,6 @@ nnoremap sp :gT
 
 " Quite Buffer
 nnoremap sq :bd
+
+" clear highlight
+nnoremap <silent>cc :nohlsearch

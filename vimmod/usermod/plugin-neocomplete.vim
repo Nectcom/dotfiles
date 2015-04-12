@@ -24,3 +24,11 @@ inoremap <expr><C-l> neocomplete#complete_common_string()
 " 展開可能なら展開、補完中なら次候補を、それ以外はTABを
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "<TAB>"
 
+" Recommended key-mappings.
+" <CR>: close popup and save indent.
+inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
+function! s:my_cr_function()
+    " return neocomplete#close_popup() . "\<CR>"
+    " For no inserting <CR> key.
+    return pumvisible() ? neocomplete#close_popup() : "\<CR>"
+endfunction

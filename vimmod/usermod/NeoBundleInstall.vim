@@ -21,6 +21,8 @@ NeoBundle 'Shougo/vimproc',{
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Shougo/vimshell'
+NeoBundle 'Shougo/neosnippet.vim'
+NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-endwise'
@@ -33,6 +35,7 @@ NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'vim-scripts/ruby-matchit'
+NeoBundle 'tpope/vim-surround '
 
 
 if has('lua')
