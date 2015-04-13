@@ -35,7 +35,7 @@ NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'vim-scripts/ruby-matchit'
-NeoBundle 'tpope/vim-surround '
+NeoBundle 'tpope/vim-surround'
 
 
 if has('lua')
