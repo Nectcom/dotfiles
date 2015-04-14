@@ -1,12 +1,9 @@
 #!/bin/sh
 
-echo 'Thank you for install my DotFiles!'
-echo 'This is installed list ...'
+echo "installing dotfiles..."
 
-ln -s ./vimmod ~/.vim
-ln -s .vimrc ~/.vimrc
-ln -s .bashrc ~/.bashrc
-ln -s .bash_profile ~/.bash_profile
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/vimmod ~/.vim
+ln -sf ~/dotfiles/.bashrc ~/.bashrc
 
-echo '.vim \n.vimrc \n.bashrc \n.bash_profile'
-echo 'nothing matter.'
+echo "everything done."
