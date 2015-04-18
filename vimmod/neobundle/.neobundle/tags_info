@@ -5,6 +5,7 @@ neocomplete.vim
 neosnippet-snippets
 neosnippet.vim
 nerdtree
+rsense
 ruby-matchit
 syntastic
 tcomment_vim

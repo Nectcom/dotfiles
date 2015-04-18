@@ -36,7 +36,7 @@ NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'vim-scripts/ruby-matchit'
 NeoBundle 'tpope/vim-surround'
-" NeoBundle 'marcus/rsense', {
+NeoBundle 'marcus/rsense', {
   \ 'autoload' : {
   \   'filetypes' : 'ruby',
   \ },
