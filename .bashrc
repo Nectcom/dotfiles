@@ -17,4 +17,3 @@ alias cmtall='git commit -a'
 alias gadd='git add'
 alias pull='git pull'
 alias push='git push'
-
