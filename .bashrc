@@ -22,4 +22,4 @@ alias gadd='git add'
 alias pull='git pull'
 alias push='git push'
 
-export RSENSE_HOME=$HOME/.vim/rsense-0.3
+git config --global core.editor "vim"
