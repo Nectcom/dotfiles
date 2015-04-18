@@ -19,4 +19,3 @@ set backspace=start,eol,indent
 set wildmenu
 set showcmd
 set laststatus=2
-

@@ -42,4 +42,13 @@ nnoremap sp :gT
 nnoremap sq :bd
 
 " clear highlight
-nnoremap <silent>cc :nohlsearch
+nnoremap <silent>cc :nohlsearch<CR>
+
+" ファイル整形
+function! s:format_file()
+  let view = winsaveview()
+  normal gg=G
+  silent call winrestview(view)
+endfunction
+
+nnoremap <Space>c :call <SID>format_file()<CR>
