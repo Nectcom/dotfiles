@@ -36,6 +36,14 @@ NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'vim-scripts/ruby-matchit'
 NeoBundle 'tpope/vim-surround'
+" NeoBundle 'marcus/rsense', {
+  \ 'autoload' : {
+  \   'filetypes' : 'ruby',
+  \ },
+  \ }
+NeoBundle 'supermomonga/neocomplete-rsense.vim'
+NeoBundle 'thinca/vim-ref'
+NeoBundle 'yuku-t/vim-ref-ri'
 
 
 if has('lua')

@@ -8,8 +8,12 @@ fi
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
+# inport git prompt
+source ~/dotfiles/git-completion.bash
+source ~/dotfiles/git-prompt.sh
+
 # User specific aliases and functions
-export PS1="\[\e[01;32m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;35m\][\w]\[\e[0m\]\[\e[01;32m\]\\$\[\e[0m\]"
+export PS1="\[\e[01;32m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;35m\][\w$(__git_ps1)]\[\e[0m\]\[\e[01;32m\]\\$\[\e[0m\]"
 
 # aliases
 alias ls='ls -a --color=auto'
@@ -18,3 +22,4 @@ alias gadd='git add'
 alias pull='git pull'
 alias push='git push'
 
+export RSENSE_HOME=$HOME/.vim/rsense-0.3
