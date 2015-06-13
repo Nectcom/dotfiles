@@ -19,8 +19,8 @@ NeoBundle 'Shougo/vimproc',{
 		\}
 	\}
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Shougo/vimshell'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-fugitive'

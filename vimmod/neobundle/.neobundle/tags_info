@@ -22,4 +22,4 @@ vim-ref-ri
 vim-submode
 vim-surround
 vimproc
-vimshell
+vimshell.vim

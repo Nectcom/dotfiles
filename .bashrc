@@ -12,13 +12,14 @@ fi
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
-# inport git prompt
+# import git prompt
 source ~/dotfiles/git-prompt.sh
 source ~/dotfiles/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUPSTREAM=auto
+
 # User specific aliases and functions
 export PS1="\[\e[01;32m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;35m\][\w$(__git_ps1)]\[\e[0m\]\[\e[01;32m\]\\$\[\e[0m\]"
 
