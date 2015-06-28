@@ -1,6 +1,0 @@
-[submodule "vimmod/neobundle/neobundle.vim"]
-	path = vimmod/neobundle/neobundle.vim
-	url = https://github.com/Shougo/neobundle.vim
-[submodule "vimmod/neobundle/vimproc"]
-	path = vimmod/neobundle/vimproc
-	url = https://github.com/Shougo/vimproc
