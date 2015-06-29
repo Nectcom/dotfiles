@@ -19,6 +19,7 @@ vim-indent-guides
 vim-rails
 vim-ref
 vim-ref-ri
+vim-slim
 vim-submode
 vim-surround
 vimproc

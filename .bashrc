@@ -19,7 +19,7 @@ git config --global color.ui auto
 git config --global alias.hist 'log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short'
 
 
-export PS1="\[\e[01;32m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;35m\][\w$(__git_ps1)]\[\e[0m\]\[\e[01;32m\]\\$\[\e[0m\]"
+export PS1='\[\e[01;32m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;35m\][\w$(__git_ps1)]\[\e[0m\]\[\e[01;32m\]\\$\[\e[0m\]'
 
 # import git prompt
 if [ -f ~/git-completion.bash ]; then
