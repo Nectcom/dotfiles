@@ -1,4 +1,5 @@
 AnsiEsc.vim
+Dockerfile.vim
 neobundle.vim
 neocomplete-rsense.vim
 neocomplete.vim

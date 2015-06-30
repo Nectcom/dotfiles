@@ -14,6 +14,8 @@ alias gadd='git add'
 alias pull='git pull'
 alias push='git push'
 
+export LS_COLORS="di=35;1"
+
 git config --global core.editor "vim"
 git config --global color.ui auto
 git config --global alias.hist 'log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short'
