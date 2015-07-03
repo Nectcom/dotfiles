@@ -22,12 +22,12 @@ git config --global alias.hist 'log --pretty=format:\"%h %ad | %s%d [%an]\" --gr
 export PS1='\[\e[01;32m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;35m\][\w$(__git_ps1)]\[\e[0m\]\[\e[01;32m\]\\$\[\e[0m\]'
 
 # import git prompt
-if [ -f ~/git-completion.bash ]; then
-  source ~/git-completion.bash
+if [ -f ~/dotfiles/git-completion.bash ]; then
+  source ~/dotfiles/git-completion.bash
 fi
 
-if [ -f ~/git-prompt.sh ]; then
-  source ~/git-prompt.sh
+if [ -f ~/dotfiles/git-prompt.sh ]; then
+  source ~/dotfiles/git-prompt.sh
 fi
 
 GIT_PS1_SHOWDIRTYSTATE=true
