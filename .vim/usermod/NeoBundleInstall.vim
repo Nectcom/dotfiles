@@ -28,7 +28,8 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'nathanaelkane/vim-indent-guides'
+" NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'basyura/unite-rails'
@@ -38,6 +39,8 @@ NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'vim-scripts/ruby-matchit'
 NeoBundle 'tpope/vim-surround'
+NeoBundle 'sudo.vim'
+NeoBundle 'mattn/emmet-vim'
 NeoBundle 'marcus/rsense', {
   \ 'autoload' : {
   \   'filetypes' : 'ruby',

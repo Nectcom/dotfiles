@@ -1,5 +1,7 @@
 AnsiEsc.vim
 Dockerfile.vim
+emmet-vim
+indentLine
 neobundle.vim
 neocomplete-rsense.vim
 neocomplete.vim
@@ -8,6 +10,7 @@ neosnippet.vim
 nerdtree
 rsense
 ruby-matchit
+sudo.vim
 syntastic
 tcomment_vim
 unite-rails
@@ -16,7 +19,6 @@ vim-autoclose
 vim-endwise
 vim-fugitive
 vim-hybrid
-vim-indent-guides
 vim-rails
 vim-ref
 vim-ref-ri
