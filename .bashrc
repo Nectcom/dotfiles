@@ -8,11 +8,18 @@ fi
 # User specific aliases and functions
 
 # aliases
-alias ls='ls -a --color=auto'
+alias ls='ls --color=auto'
 alias cmtall='git commit -a'
 alias gadd='git add'
 alias pull='git pull'
 alias push='git push'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 
 export LS_COLORS="di=35;1"
 

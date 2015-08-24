@@ -1,4 +1,4 @@
-vimmod/bundle/*
+.vim/bundle/*
 
 # 以下は無視しない
 !/.vim/bundle/neobundle.vim/*
